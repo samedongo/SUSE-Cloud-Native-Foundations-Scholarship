@@ -2,6 +2,16 @@
 # Created by https://www.toptal.com/developers/gitignore/api/python,go,linux
 # Edit at https://www.toptal.com/developers/gitignore?templates=python,go,linux
 
+### Vagrant ###
+# General
+.vagrant/
+
+# Log files (if you are creating logs in debug mode, uncomment this)
+# *.log
+
+### Vagrant Patch ###
+*.box
+
 ### Go ###
 # Binaries for programs and plugins
 *.exe
